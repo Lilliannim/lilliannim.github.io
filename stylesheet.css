@@ -1,10 +1,44 @@
 h1{
-    color:rgb(rgb(33, 95, 219), green, blue)
+    color:rgb(255, 166, 242);
+    font-family: "Yuji Syuku", serif;
+    font-size: 3em;
+    text-decoration: wavy;
+    text-align: center;
+    text-transform: uppercase;
 }
 ul{
 list-style-type: none;
+text-transform: none;
 }
 
 img{
-    width: 30%;
+    width: 30% 
 }
+hr{
+    color:rgb(0, 123, 168);
+}
+h2{
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: solid;
+}
+p{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.95em;
+    text-align: left;
+}
+nav{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.34);
+    background-image: url(5765931B-5EA6-4414-8009-2AF977FC096D.JPG);
+    background-size: 25em;
+    background-blend-mode: color-burn;
+}
+a:link{
+    color: rgb(255, 0, 0);
+}
+a :visited {color: rgb(0, 123, 168);}
+a :hover {color: rgb(255, 255, 0)}
