@@ -10,7 +10,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     margin: auto;
-    padding: 0%;
+    padding: 10%;
     width: 60%;
 }
 ul{
@@ -28,7 +28,7 @@ h2{
     font-family: "Nunito Sans", sans-serif;
     text-decoration: solid;
     margin: auto;
-    padding: 0%;
+    padding: 10%;
     width: 60%;
 }
 p{
@@ -41,7 +41,7 @@ nav{
     font-size: 1em;
     line-height: 1.5em;
     margin: auto;
-    padding: 0%;
+    padding: 10%;
     width: 60%;
 }
 body{
