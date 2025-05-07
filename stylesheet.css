@@ -27,6 +27,9 @@ hr{
 h2{
     font-family: "Nunito Sans", sans-serif;
     text-decoration: solid;
+    margin: auto;
+    padding: 0%;
+    width: 60%;
 }
 p{
     font-family: "Nunito Sans", sans-serif;
@@ -37,12 +40,18 @@ nav{
     font-family: "Nunito Sans", sans-serif;
     font-size: 1em;
     line-height: 1.5em;
+    margin: auto;
+    padding: 0%;
+    width: 60%;
 }
 body{
     background-color: rgba(255, 255, 255, 0.34);
     background-image: url(5765931B-5EA6-4414-8009-2AF977FC096D.JPG);
     background-size: 25em;
     background-blend-mode: color-burn;
+    margin: auto;
+    padding: 0%;
+    width: 60%;
 }
 a:link{
     color: rgb(255, 0, 230);
