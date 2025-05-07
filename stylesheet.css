@@ -82,10 +82,25 @@ body{
 a:link{
     color: rgb(255, 0, 230);
 }
-a :visited {color: rgb(0, 123, 168);}
-a :hover {color: rgb(255, 255, 0)}
-@media screen and (max-device-width: 480px) {
-    .column {
-      float: none;
-    }
+a :visited {
+    color: rgb(0, 123, 168);
 }
+a :hover {
+    color: rgb(255, 255, 0)
+}
+#wrapper {
+    width: 80%;
+    margin: auto;
+    }
+    .column {
+    width: 33.33%;
+    float: left;
+    margin: 10%;
+    }
+    @media only screen and (max-width: 480px) {
+    .column {
+    width: 100%;
+    float: left;
+    margin: 0%;
+    }
+    }
