@@ -6,7 +6,11 @@
 #wrapper {
     width:80%;
     margin: auto;
-    .columns {float:left;}
+    position: relative;
+}
+
+.columns {float:left;}
+
 .col-1 {width:8.33%;}
 .col-2 {width:16.66%}
 .col-3 {width: 25%;}
@@ -19,10 +23,8 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-.clear-left{
-    clear:left;
-}
-}
+.clear-left{clear:left;}
+
 h1{
     color:rgb(255, 166, 242);
     font-family: "Yuji Syuku", serif;
@@ -31,15 +33,15 @@ h1{
     text-align: center;
     text-transform: uppercase;
     margin: auto;
-    padding: 5%;
-    width: 80%;
+    padding: 2%;
+    width: 100%;
 }
 ul{
 list-style-type: none;
 text-transform: none;
 }
 img{
-    width: 60%
+    width: 100%
 }
 hr{
     color:rgb(0, 123, 168);
@@ -62,7 +64,7 @@ nav{
     line-height: 1.5em;
     margin: auto;
     padding: 5%;
-    width: 60%;
+    width: 100%;
 }
 body{
     background-color: rgba(255, 255, 255, 0.34);
@@ -73,6 +75,9 @@ body{
     padding: 5%;
     width: 60%;
     float: left;
+}
+footer {
+    padding: 2%
 }
 #container {
     width: 80%;
