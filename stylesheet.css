@@ -26,11 +26,11 @@
 .clear-left{clear:left;}
 
 h1{
-    color:rgb(255, 166, 242);
+    color:rgb(201, 81, 183);
     font-family: "Yuji Syuku", serif;
-    font-size: 3em;
+    font-size: 2em;
     text-decoration: wavy;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     margin: auto;
     padding: 2%;
@@ -41,22 +41,26 @@ list-style-type: none;
 text-transform: none;
 }
 img{
-    width: 100%
+    width: 50%
 }
 hr{
     color:rgb(0, 0, 0);
+    width: auto;
 }
 h2{
     font-family: "Nunito Sans", sans-serif;
     text-decoration: solid;
+    text-align: left;
     margin: auto;
-    padding: 1%;
-    width: 60%;
+    padding: 2%;
+    width: 100%;
 }
 p{
     font-family: "Nunito Sans", sans-serif;
     font-size: 1em;
+    background-color: rgb(255, 255, 255);
     text-align: left;
+    width: 50%;
 }
 nav{
     font-family: "Nunito Sans", sans-serif;
@@ -69,7 +73,7 @@ nav{
 body{
     background-color: rgba(255, 255, 255, 0.34);
     background-image: url(chris-barbalis-tNJERdOlMtw-unsplash.jpg);
-    background-size: 25em;
+    background-size: 100%;
     background-blend-mode: color-burn;
     margin: auto;
     padding: 5%;
