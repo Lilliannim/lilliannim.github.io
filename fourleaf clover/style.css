@@ -213,7 +213,8 @@ body {
 }
 
 .pressed-clover {
-  width: 100%;
+  width: 45vw;
+  margin-left: -15vw;
   height: auto;
   display: block;
 }
@@ -264,4 +265,80 @@ h4{
   width: 100%;
   height: auto;
   display: block;
+}
+
+.final-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4vw;
+  padding: 3vw 0;
+}
+
+.final-left,
+.final-right {
+  flex: 1 1 40vw;
+  max-width: 40vw;
+  position: relative;
+}
+
+.notecard-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.final-note {
+  width: 55vw;
+  margin-left: -10vw;
+  height: auto;
+  display: block;
+}
+
+.final-text-box {
+  position: absolute;
+  top: 7vw;
+  left: 0vw;
+  width: 35vw;
+  padding: 1.5vw;
+  font-size: 1.1vw;
+  line-height: 1.7;
+  border-radius: 0.5vw;
+  box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.final-text-box h4 {
+  margin-top: 0;
+  font-size: 1.3vw;
+  text-transform: uppercase;
+}
+
+.clover-specimens {
+  width: 45vw;
+  padding-right: 10vw;
+  margin-top: -8vw;
+  top: 0vw;
+  height: auto;
+  display: block;
+}
+.clover-fade-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('Untitled_Artwork.gif');
+  background-repeat: repeat;
+  background-size: 8vw;
+  z-index: 20;
+  pointer-events: none;
+
+  animation: fadeOutOverlay 3s ease-out 1s forwards; 
+}
+
+@keyframes fadeOutOverlay {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
